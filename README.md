@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   ## <div align="center"><img src="https://github.com/MarcoSamura/adventuresJS/blob/main/assets/Adventure-JS.png"></div>
 **Olá, devs !**
 
@@ -5,3 +6,6 @@
 
 by Samura ⚔️
 <hr>
+=======
+# adventure-js
+>>>>>>> 09b63fb21ff86a4fe9496ce30e9702cdb5212513
