@@ -7,12 +7,18 @@ const enviarEmail = (body, to, callback) => {
       -----------------------
       De:Samura
     `)
-    callback();
+    callback("Ok", 5, "8s");
   }, 8000);
 };
 console.log("Enviando email ...");
 
-enviarEmail('Oi, seja bem vindo ao AdventuresJS', "Narutin@gmail.com", () => {
-  console.log("Seu email foi enviado");
+enviarEmail('Oi, seja bem vindo ao AdventuresJS', "Narutin@gmail.com", (status, amount, time) => {
+  console.log(`
+    Status: ${ status }
+    -------------------
+    contatos: ${ amount }
+    Tempo de envio: ${ time }
+    -------------------
+  `);
   console.log('TUDO OK !');
 });
